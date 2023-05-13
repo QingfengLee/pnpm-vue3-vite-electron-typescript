@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev:vue3-web-demo": "vite apps/vue3-web-demo",
-    "dev:vue3-electron-demo": "cd apps/vue3-electron-demo && vite",    
-    "build:vue3-web-demo": "vite build apps/vue3-web-demo",
-    "build:vue3-electron-demo": "cd apps/vue3-electron-demo && vite build"
+    "dev:vue3-web-demo": "cd apps/vue3-web-demo && pnpm dev",
+    "dev:vue3-electron-demo": "cd apps/vue3-electron-demo && pnpm dev",    
+    "build:vue3-web-demo": "cd apps/vue3-web-demo & pnpm build",
+    "build:vue3-electron-demo": "cd apps/vue3-electron-demo && pnpm build"
   },
   "dependencies": {
     "vue": "^3.2.47"
